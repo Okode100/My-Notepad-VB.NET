@@ -31,7 +31,7 @@
         Do While Not FileSystem.EOF(1)
             Tmp = Tmp & FileSystem.LineInput(1)
             If Not FileSystem.EOF(1) Then
-                Tmp = Tmp & Chr(13) & Chr(10)
+                Tmp = Tmp & Chr(13) & Chr(20)
             End If
         Loop
         FileSystem.FileClose(1)
